@@ -1,5 +1,3 @@
-# SentimentLabelledSentences
-
 # Final Project: Sentiment Analysis on Customer Reviews
 
 ## Introduction
