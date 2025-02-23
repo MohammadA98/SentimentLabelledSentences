@@ -81,7 +81,7 @@ This project incorporates:
 
 ### **Ali Azizi**  
 - **GitHub**: [al1az1z1](https://github.com/al1az1z1)  
-- **LinkedIn**: [Ali Azizi](#) *(Update with actual link)*  
+- **LinkedIn**: [Ali Azizi](https://www.linkedin.com/in/al1az1z1)
 
 ---
 
