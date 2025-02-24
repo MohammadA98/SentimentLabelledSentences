@@ -27,6 +27,15 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
      jupyter nbconvert --to notebook --inplace --execute sentiment.ipynb
      ```
    This will execute all notebook cells, install required libraries, and display results.
+4. **(Optional)** Extract the real-life experiment dataset:
+      The tweets.csv file is large, so a compressed version (tweets.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
+
+      If needed, extract the dataset using:
+
+      ```bash
+      unzip tweets_compressed.zip
+      ```
+      This will extract tweets.csv into the project directory.
 
 ---
 
@@ -37,8 +46,7 @@ This project explores sentiment analysis by:
 ✔ **Building and evaluating sentiment classification models**.  
 ✔ **Comparing lexicon-based and ML-based models for real-world sentiment analysis**.  
 ✔ **Experimenting on real-world data**, such as:  
-   - Determining the **political bias** of a tweet.  
-   - Analyzing sentiment differences across platforms (**Twitter vs. Instagram**).  
+   - Sentiment of each tweet in a large collection dataset.
 
 ---
 
@@ -50,6 +58,7 @@ The dataset contains **sentiment-labeled reviews** from multiple sources:
 | **Amazon Reviews** | User feedback on various products. |
 | **IMDB Reviews** | Movie reviews from online users. |
 | **Yelp Reviews** | Restaurant and service reviews. |
+| **Tweets** | Over a million and a half tweets. |
 
 Each review is labeled as **positive (1) or negative (0)** for supervised learning.
 
@@ -87,4 +96,3 @@ This project incorporates:
 
 ## **License**  
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-.
