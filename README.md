@@ -20,14 +20,19 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
    ```bash
    cd SentimentLabelledSentences
    ```
-3. **Run the Jupyter Notebook** (ensure you have Jupyter installed):
+3. **Install required libraries**:
+     Run the following command in the terminal:
+     ```bash
+     pip install -r requirements.txt
+     ```
+4. **Run the Jupyter Notebook** (ensure you have Jupyter installed):
    - Open Jupyter Notebook and click `Run All`, or  
    - Run the following command in the terminal:
      ```bash
      jupyter nbconvert --to notebook --inplace --execute sentiment.ipynb
      ```
    This will execute all notebook cells, install required libraries, and display results.
-4. **(Optional)** Extract the real-life experiment dataset:
+5. **(Optional)** Extract the real-life experiment dataset:
 
       The tweets.csv file is large, so a compressed version (tweets.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
 
