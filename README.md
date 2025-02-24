@@ -16,12 +16,14 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
    ```bash
    git clone https://github.com/MohammadA98/SentimentLabelledSentences.git
    ```
+   Please ensure your kernel's virtual environment (conda, venv) is at least python version 3.9 and your terminal is attached your kernel.
+
 2. **Navigate to the project directory**:
    ```bash
    cd SentimentLabelledSentences
    ```
 3. **Install required libraries**:
-     Run the following command in the terminal:
+   Run the following command in the terminal:
      ```bash
      pip install -r requirements.txt
      ```
@@ -32,16 +34,17 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
      jupyter nbconvert --to notebook --inplace --execute sentiment.ipynb
      ```
    This will execute all notebook cells, install required libraries, and display results.
+
 5. **(Optional)** Extract the real-life experiment dataset:
 
-      The tweets.csv file is large, so a compressed version (tweets.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
+   The tweets.csv file is large, so a compressed version (tweets_compressed.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
 
-      If needed, extract the dataset using:
+   If needed, extract the dataset using:
 
       ```bash
       unzip tweets_compressed.zip
       ```
-      This will extract tweets.csv into the project directory.
+   This will extract tweets.csv into the project directory.
 
 ---
 
