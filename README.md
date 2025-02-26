@@ -29,7 +29,7 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
    This will execute all notebook cells, install required libraries, and display results.
 4. **(Optional)** Extract the real-life experiment dataset:
 
-      The tweets.csv file is large, so a compressed version (tweets.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
+      The tweets.csv file is large, so a compressed version (tweets_compressed.zip) is included instead. Extracting this file is only necessary if you want to run the real-life experiment portion of the code. Otherwise, you can proceed without it.
 
       If needed, extract the dataset using:
 
