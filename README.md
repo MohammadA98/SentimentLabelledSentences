@@ -36,7 +36,7 @@ By comparing both techniques, we aim to evaluate their strengths, weaknesses, an
       ```bash
       unzip tweets_compressed.zip
       ```
-      This will extract tweets.csv into the project directory.
+      This will extract tweets.csv into the project directory (please rename the file to "tweets.csv").
 
 ---
 
